@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Orientación Vocacional UANL</title>
+
+    <link rel="stylesheet" href="css/carreras.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <div class="logo">
+                UANL Orienta
+            </div>
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="campus-container">
+
+            <!-- Ciudad Universitaria -->
+            <div class="campus-card">
+
+                <div class="campus-header" onclick="toggleCampus('cu')">
+                    <img src="img/cu2.jpg" alt="Ciudad Universitaria">
+                    <h2>Ciudad Universitaria</h2>
+                </div>
+                <a href="https://maps.google.com/?q=Ciudad+Universitaria+UANL" target="_blank" class="btn-ubicacion">
+                 📍 Ver ubicación</a>
+                <div class="facultades" id="cu">
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('fime')">
+                            <h3>FIME</h3>
+                        </div>
+
+                        <div class="carreras" id="fime">
+                            <ul>
+                                <li>Ingeniero Administrador de Sistemas</li>
+                                <li>Ingeniero Mecánico Electricista</li>
+                                <li>Ingeniero Mecánico Administrador</li>
+                                <li>Ingeniero en Tecnologías de Software</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('facpya')">
+                            <h3>FACPYA</h3>
+                        </div>
+
+                        <div class="carreras" id="facpya">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('arqui')">
+                            <h3>Facultad De Arquitectura</h3>
+                        </div>
+
+                        <div class="carreras" id="arqui">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('bio')">
+                            <h3>Facultad De Ciencias Biologicas</h3>
+                        </div>
+
+                        <div class="carreras" id="bio">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('mat')">
+                            <h3>Ciencias Fisico Matematicas</h3>
+                        </div>
+
+                        <div class="carreras" id="mat">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('derecho')">
+                            <h3>Derecho y Criminologia</h3>
+                        </div>
+
+                        <div class="carreras" id="derecho">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('civil')">
+                            <h3>Ingeneria Civil</h3>
+                        </div>
+
+                        <div class="carreras" id="civil">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('filo')">
+                            <h3>Filosofia y Letras</h3>
+                        </div>
+
+                        <div class="carreras" id="filo">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('fod')">
+                            <h3>Organización Deportiva</h3>
+                        </div>
+
+                        <div class="carreras" id="fod">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('social')">
+                            <h3>Trabajo Social y Desarrollo Humano</h3>
+                        </div>
+
+                        <div class="carreras" id="social">
+                            <ul>
+                                <li>Lic. en Administración</li>
+                                <li>Contador Público</li>
+                                <li>Negocios Internacionales</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Ciencias de la Salud -->
+            <div class="campus-card">
+
+                <div class="campus-header" onclick="toggleCampus('salud')">
+                    <img src="img/salud.jpg" alt="Ciencias de la Salud">
+                    <h2>Ciencias de la Salud</h2>
+                </div>
+
+                <a href="https://maps.google.com/?q=Facultad+de+Medicina+UANL" target="_blank" class="btn-ubicacion">
+                📍 Ver ubicación</a>
+
+                <div class="facultades" id="salud">
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('medicina')">
+                            <h3>Facultad de Medicina</h3>
+                        </div>
+
+                        <div class="carreras" id="medicina">
+                            <ul>
+                                <li>Médico Cirujano y Partero</li>
+                                <li>Licenciatura en Química Clinica</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('enfermeria')">
+                            <h3>Facultad de Enfermería</h3>
+                        </div>
+
+                        <div class="carreras" id="enfermeria">
+                            <ul>
+                                <li>Licenciatura en Enfermería</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('odon')">
+                            <h3>Facultad de Odontologia</h3>
+                        </div>
+
+                        <div class="carreras" id="odon">
+                            <ul>
+                                <li>Cirujano Dentista</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('sal')">
+                            <h3>Salud Pública y Nutrición</h3>
+                        </div>
+
+                        <div class="carreras" id="sal">
+                            <ul>
+                                <li>Licenciatura en Nutrición</li>
+                                <li>Licenciatura en Salud Pública</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('psico')">
+                            <h3>Facultad de Psicología</h3>
+                        </div>
+
+                        <div class="carreras" id="psico">
+                            <ul>
+                                <li>Licenciatura en Psicología</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Mederos -->
+            <div class="campus-card">
+
+                <div class="campus-header" onclick="toggleCampus('artes')">
+                    <img src="img/mederos.jpg" alt="Mederos">
+                    <h2>Mederos</h2>
+                </div>
+
+                <a href="https://maps.google.com/?q=Campus+Mederos+UANL" target="_blank" class="btn-ubicacion">
+                 📍 Ver ubicación
+                 </a>
+
+                <div class="facultades" id="artes">
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('musica')">
+                            <h3>Facultad de Musica</h3>
+                        </div>
+
+                        <div class="carreras" id="musica">
+                            <ul>
+                                <li>Licenciatura en Musica</li>
+                                <li>TSU en Musica</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('comu')">
+                            <h3>Ciencias de la Comunicación</h3>
+                        </div>
+
+                        <div class="carreras" id="comu">
+                            <ul>
+                                <li>Licenciatura en Ciencias de la Comunicación</li>
+                                <li>Licenciatura en Mercadoctenia</li>
+                                <li>Licenciatura en Periodismo Multimedia</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('escena')">
+                            <h3>Artes Esenicas y Visuales</h3>
+                        </div>
+
+                        <div class="carreras" id="escena">
+                            <ul>
+                                <li>Licenciatura en Arte Teatral</li>
+                                <li>Licenciatura en Danza Contemporánea</li>
+                                <li>Licenciatura en Artes Visuales</li>
+                                <li>Licenciatura en Creación y Gestión de Contenidos Mediáticos</li>
+                                <li>Licenciatura en Diseño Gráfico</li>
+                                <li>Licenciatura en Lenguaje y Producción Audiovisual</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('poli')">
+                            <h3>Ciencias Políticas y Relaciones Internacionales y Economía.</h3>
+                        </div>
+
+                        <div class="carreras" id="poli">
+                            <ul>
+                                <li>Licenciatura en Administración</li>
+                                <li>Licenciatura en Ciencias Políticas y de Gobierno</li>
+                                <li>Licenciatura en Relaciones Internacionales</li>
+                                <li>Licenciatura en Turismo</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Linares -->
+            <div class="campus-card">
+
+                <div class="campus-header" onclick="toggleCampus('linares')">
+                    <img src="img/linares.jpg" alt="Linares">
+                    <h2>Linares</h2>
+                </div>
+
+                <a href="https://maps.app.goo.gl/BQKjNThrXs8Sb7yY8" target="_blank" class="btn-ubicacion">
+                 📍 Ver ubicación
+                 </a>
+
+                <div class="facultades" id="linares">
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('tierra')">
+                            <h3>Ciencias de la Tierra</h3>
+                        </div>
+
+                        <div class="carreras" id="tierra">
+                            <ul>
+                                <li>Ingeniero Geólogo</li>
+                                <li>Ingeniero Geofisico</li>
+                                <li>Ingeniero Petrolero</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('fores')">
+                            <h3>Ciencias Forestales</h3>
+                        </div>
+
+                        <div class="carreras" id="fores">
+                            <ul>
+                                <li>Ingeneria Forestal</li>
+                                <li>Ingeneria en Recursos Naturales</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Agropecuario -->
+            <div class="campus-card">
+
+                <div class="campus-header" onclick="toggleCampus('agro')">
+                    <img src="img/agro.jpg" alt="Agro">
+                    <h2>Agropecuario</h2>
+                </div>
+
+                <a href="https://maps.app.goo.gl/qNomnR8HzmH7Axe68" target="_blank" class="btn-ubicacion">
+                 📍 Ver ubicación
+                 </a>
+
+                <div class="facultades" id="agro">
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('nomo')">
+                            <h3>Agronomia</h3>
+                        </div>
+
+                        <div class="carreras" id="nomo">
+                            <ul>
+                                <li>Ingeneria en Agronegocios</li>
+                                <li>Ingeneria en Agronomia</li>
+                                <li>Ingeneria en Biotecnologia</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('vet')">
+                            <h3>Medicina Veterinaria y Zooctenia</h3>
+                        </div>
+
+                        <div class="carreras" id="vet">
+                            <ul>
+                                <li>Licenciatura en Veterinaria</li>
+                                <li>Licenciatura en Zooctenia</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Sabinas -->
+            <div class="campus-card">
+
+                <div class="campus-header" onclick="toggleCampus('sabi')">
+                    <img src="img/sabi.jpg" alt="Sabi">
+                    <h2>Sabinas Hidalgo</h2>
+                </div>
+
+                <a href="https://maps.app.goo.gl/6j1Mq5B8HaKDJX5t8" target="_blank" class="btn-ubicacion">
+                 📍 Ver ubicación
+                 </a>
+
+                <div class="facultades" id="sabi">
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('fac')">
+                            <h3>FACPYA</h3>
+                        </div>
+
+                        <div class="carreras" id="fac">
+                            <ul>
+                                <li>Contador Publico</li>
+                                <li>Licenciatura en Administración</li>
+                                <li>Licenciatura en Tecnologias de la Información</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('fim')">
+                            <h3>FIME</h3>
+                        </div>
+
+                        <div class="carreras" id="fim">
+                            <ul>
+                                <li>Ingeneria Mecanica y Administración</li>
+                                <li>Ingeneria Mecanica y Electrica</li>
+                                <li>Ingeneria Mecatronica</li>
+                                <li>Ingeneria de Manufactura</li>
+                                <li>Ingeneria de Materiales</li>
+                                <li>Ingeneria en Administración y Sistemas</li>
+                                <li>Ingeneria en Automatización</li>
+                                <li>Ingeneria en Tecnologias de Software</li>
+                                <li>Ingeneria en Telecomunicaciones</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('enf')">
+                            <h3>Facultad de Enfermeria</h3>
+                        </div>
+
+                        <div class="carreras" id="enf">
+                            <ul>
+                                <li>Licenciatura en Enfermeria</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="facultad-card">
+
+                        <div class="facultad-header" onclick="toggleFacultad('der')">
+                            <h3>Facultad de Derecho y Criminologia</h3>
+                        </div>
+
+                        <div class="carreras" id="der">
+                            <ul>
+                                <li>Licenciatura en Derecho</li>
+                                <li>Licenciatura en Criminologia</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="pdf-section">
+
+            <h2>Planes De Estudio por Campus</h2>
+
+            <div class="pdf-grid">
+
+                <!-- Ciudad Universitaria -->
+                <div class="pdf-card">
+
+                    <h3>Ciudad Universitaria</h3>
+
+                    <iframe src="datos/CU_PE.pdf" title="PDF Ciudad Universitaria">
+            </iframe>
+
+                    <a href="datos/CU_PE.pdf" download class="btn-pdf">
+
+               Descargar PDF
+
+            </a>
+
+                </div>
+
+                <!-- Ciencias de la Salud -->
+                <div class="pdf-card">
+
+                    <h3>Ciencias de la Salud</h3>
+
+                    <iframe src="datos/Salud_PE.pdf" title="PDF Ciencias de la Salud">
+            </iframe>
+
+                    <a href="datos/Salud_PE.pdf" download class="btn-pdf">
+
+               Descargar PDF
+
+            </a>
+
+                </div>
+
+                <!-- Mederos -->
+                <div class="pdf-card">
+
+                    <h3>Mederos</h3>
+
+                    <iframe src="datos/Mederos_PE.pdf" title="PDF Mederos">
+            </iframe>
+
+                    <a href="datos/Mederos_PE.pdf" download class="btn-pdf">
+
+               Descargar PDF
+
+            </a>
+
+                </div>
+
+                <!-- Linares -->
+                <div class="pdf-card">
+
+                    <h3>Linares</h3>
+
+                    <iframe src="datos/Linares_PE.pdf" title="PDF Linares">
+            </iframe>
+
+                    <a href="datos/Linares_PE.pdf" download class="btn-pdf">
+
+               Descargar PDF
+
+            </a>
+
+                </div>
+
+                <!-- Agropecuario -->
+                <div class="pdf-card">
+
+                    <h3>Agropecuario</h3>
+
+                    <iframe src="datos/Agro_PE.pdf" title="PDF Agropecuario">
+            </iframe>
+
+                    <a href="datos/Agro_PE.pdf" download class="btn-pdf">
+
+               Descargar PDF
+
+            </a>
+
+                </div>
+
+                <!-- Sabinas Hidalgo -->
+                <div class="pdf-card">
+
+                    <h3>Sabinas Hidalgo</h3>
+
+                    <iframe src="datos/Sabinas_PE.pdf" title="PDF Sabinas Hidalgo">
+            </iframe>
+
+                    <a href="datos/Sabinas_PE.pdf" download class="btn-pdf">
+
+               Descargar PDF
+
+            </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
